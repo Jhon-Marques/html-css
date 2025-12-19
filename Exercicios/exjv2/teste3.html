@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Exercício Box Shadow</title>
+<style>
+  body {
+    background: #f2f2f2;
+    padding: 30px;
+    font-family: Arial;
+    display: flex;
+    gap: 40px;
+  }
+
+  .bloco {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px red;
+  }
+
+  #leve {
+  box-shadow: 3px 3px black;
+}
+
+  #forte {
+    box-shadow: 10px 10px black;
+  }
+
+  #dupla {
+    box-shadow: 20px 20px black;
+  }
+
+  #colorida {
+    box-shadow: 5px 5px blue;
+  }
+
+  #interna {
+    box-shadow: inset -5px -5px black;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="bloco" id="leve"></div>
+<div class="bloco" id="forte"></div>
+<div class="bloco" id="dupla"></div>
+<div class="bloco" id="interna"></div>
+<div class="bloco" id="colorida"></div>
+
+</body>
+</html>

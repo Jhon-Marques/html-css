@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Box Shadow - Nível 4</title>
+<style>
+  body {
+    background: #eee;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    font-family: Arial;
+  }
+
+  .bloco {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+  }
+
+  /* Sombra sem blur */
+#inset-leve {
+    box-shadow: inset 5px 5px 10px 0px black;
+ }
+
+ #inset-forte {
+    box-shadow: inset 15px 15px 25px 0px black;
+ }
+
+ #inset-duplo {
+    box-shadow: 
+    inset 5px 5px 20px 0px black,
+    inset -5px -5px 20px 0px black;
+ }
+
+</style>
+</head>
+<body>
+
+<div class="bloco" id="inset-leve"></div> 
+<div class="bloco" id="inset-forte"></div>
+<div class="bloco" id="inset-duplo"></div>
+
+
+</body>
+</html>
+
