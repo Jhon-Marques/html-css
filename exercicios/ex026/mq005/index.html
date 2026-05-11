@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ação</a></li>
+                <li><a href="#">Comédia</a></li>
+                <li><a href="#">Suspense</a></li>
+                <li><a href="#">Sci-fi</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>O legado de Michael Jackson voltou a dominar as paradas musicais impulsionado pelo sucesso do filme Michael, cinebiografia estrelada por Jaafar Jackson, sobrinho do cantor. Segundo dados divulgados pela Billboard, álbuns clássicos do Rei do Pop retornaram ao Top 10 das paradas americanas nas últimas semanas, em um movimento impulsionado pelo crescimento massivo de streams e vendas desde a estreia do longa
+            </p>
+
+            <p>  O principal destaque é Thriller, que voltou ao Top 10 da Billboard mais de 40 anos após seu lançamento original. O álbum, considerado o mais vendido da história da música, registrou um aumento expressivo de reproduções após o lançamento do filme e reafirmou a força do catálogo de MJ junto a novas gerações. Além de Thriller, coletâneas como Number Ones e a trilha sonora oficial de Michael também registraram crescimento nas paradas globais.</p>
+
+            <p>Depois da troca de corpos causada pelas vagens mágicas, os dois protagonistas passam boa parte da história aprendendo a viver literalmente na pele do outro. Ollie descobre que os Javan estavam morrendo de fome antes de encontrarem os piplets, enquanto Ivy entende o impacto devastador que a escassez trouxe para os Pookoos.</p>
+
+            <p>O grande ponto de virada acontece quando Boogle, o personagem tratado até então como alívio cômico, revela sua verdadeira identidade. O pequeno peixe é, na verdade, o Firewolf, criatura responsável pela destruição dos Dzo e pelo desequilíbrio do vale.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display =='block') {
+                itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
